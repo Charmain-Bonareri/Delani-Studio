@@ -3,11 +3,11 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  font-size: large;
+  font-size: larger;
   margin: 0;
   padding: 0;
 }
-.landing{
+.header{
   background-image: url('../images/backgrounds/h_img.jpg');
   background-position: center center;
   background-repeat: no-repeat;
@@ -18,13 +18,15 @@ body{
   font-size: larger;
   
 }
-.landing h1{
+.header h1{
   padding: 2px;
   margin: 5px;
+  font-size: 40px;
 }
-.landing p{
+.header p{
   padding: 2px;
 }
+
 #logo{
   margin-top: 12px;
   margin-bottom: 24px;
@@ -58,6 +60,10 @@ body{
   padding-bottom: 30px;
   padding-top:40px;
   font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+ }
+.aboutusp{
+  font-weight: 550;
 }
 #about{
   font-family: 'Raleway', sans-serif;
@@ -70,13 +76,16 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
+  font-size: large;
+  font-weight: bold;
 }
 .services h2{
   font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
   
 }
-#servicesoverlay{
+#ourservices{
   background-color: rgba(0,0,0,0.4);
   padding-top: 10%;
   padding-bottom: 10%;
