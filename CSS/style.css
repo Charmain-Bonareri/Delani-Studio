@@ -1,17 +1,22 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@200&display=swap'); */
-html {
-    scroll-behavior: smooth;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@200;300&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-size: large;
+  margin: 0;
+  padding: 0;
 }
 .landing{
   background-image: url('../images/backgrounds/h_img.jpg');
   background-position: center center;
-  background-size: cover;
   background-repeat: no-repeat;
   color: white;
   text-align: center;
-  padding-top:17%; 
-  font-family: 'Gabriela', serif;
-  /* padding-bottom:5%; */
+  padding-top: 10%;
+  font-family: 'Raleway', sans-serif;
+  font-size: larger;
+  
 }
 .landing h1{
   padding: 2px;
@@ -52,10 +57,10 @@ html {
   text-align: center;
   padding-bottom: 30px;
   padding-top:40px;
-  font-family: 'Copse', serif;
+  font-family: 'Raleway', sans-serif;
 }
 #about{
-  font-family: 'Gabriela', serif;
+  font-family: 'Raleway', sans-serif;
 }
 .services{
   text-align: center;
@@ -64,11 +69,11 @@ html {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: 'Copse', serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
 }
 .services h2{
-  font-family: 'Gabriela', serif;
+  font-family: 'Raleway', sans-serif;
   
 }
 #servicesoverlay{
@@ -77,10 +82,10 @@ html {
   padding-bottom: 10%;
 }
 .what-we-do{
-  font-family: 'Quattrocento', serif;
+  font-family: 'Raleway', sans-serif;
   text-align: center;
   padding-top: 40px;
-  font-family: 'Gabriela', serif;
+  font-family: 'Raleway', sans-serif;
 }
 .what-we-do .headings{
   padding-bottom: 38px;
@@ -99,7 +104,7 @@ html {
 .portfolio h2{
   text-align: center;
   padding-top:40px;
-  font-family: 'Gabriela', serif;
+  font-family: 'Raleway', sans-serif;
 }
 .contact{
   background-image: url('../images/backgrounds/c_image.jpg');
@@ -117,13 +122,13 @@ html {
   margin-top: 30px;
   padding-top: 40px;
   padding-bottom: 20px;
-  font-family: 'Gabriela', serif;
+  font-family: 'Raleway', sans-serif;
 }
 input[type=text],input[type=email],#comment{
   background: transparent;
   color: white;
   font-size: 20px;
-  font-family: 'Copse', serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .form-control::-webkit-input-placeholder { 
@@ -149,14 +154,14 @@ button{
 footer{
   text-align: center;
   padding-top: 30px;
-  font-family: 'Delius Swash Caps', cursive;
+  font-family: 'Raleway', sans-serif;
 }
 footer p{
   margin-top: 10px;
 }
 #product, #development, #design{
   display: none;
-  font-family: 'Copse', serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
 }
 #product .title, #development .title, #design .title{
@@ -176,7 +181,7 @@ footer p{
   text-align: center;
   font-size: 30px;
   padding-top: 50%;
-  font-family: 'Delius Swash Caps', cursive;
+  font-family: 'Raleway', sans-serif;
 }
 @media only screen and (max-width: 755px){
   #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
@@ -275,3 +280,4 @@ footer p{
     margin-right: 10%; 
   }
 }
+
