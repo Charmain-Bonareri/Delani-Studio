@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
-html{
-  scroll-behavior: smooth;
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@200&display=swap'); */
+html {
+    scroll-behavior: smooth;
 }
 .landing{
   background-image: url('../images/backgrounds/h_img.jpg');
