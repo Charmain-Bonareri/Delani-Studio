@@ -17,4 +17,8 @@ else {
     }
 });
   
-  
+let cardTotalNumber =(
+  $(".card").toArray().length
+);
+
+
