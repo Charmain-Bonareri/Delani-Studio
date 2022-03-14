@@ -1,8 +1,8 @@
-# Ghanian-Akan-Names-Calculator
+# Delani-Studio
 
-This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
+This is a clone website for Delani Studio website.
 
-### By Charmain Bonareri, 04/03/2022
+### By Charmain Bonareri, 12/03/2022
 
 
 ## Table of contents
@@ -14,8 +14,7 @@ This is a web application that takes a user's birthday and calculates the day of
 * [Authors information](#contact)
 
 ## Description
-Frequently, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
-Most people do know when their birthdays are, but some might not know what day of the week they were born. Luckily for us, we will be able to take the user's birthday and calculate the day of the week they were born and then depending on their gender output their Akan Name.
+This is a clone website that implements everything I have learnt from Bootstrap, Javascript and jQuery to recreate a landing page for a fictional studio as called Delani Studio.
 
 
 # Setup and Installation Requirements
@@ -31,14 +30,17 @@ $ Make changes where need be.
 ## Behaviour Driven Development (BDD)
 This webpage is documented and designed around the behavior a user expects to experience when interacting with it.
 
-- When the user enters the valid input on the form, the day they were born and their respective Akan name should be actioned.
-- When the user adds an invalid input, an alert message should pop up.
-- The user should be able to regenerate the form to try out different data from the first input.
+| Behavior                                                                                                                                                                                                                                                                                   | input                                                     | output                                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| User inputs name and email clicks on the submit button.On submit,validation is done first,then a message acknowledging the reciept of the message is outputted.Validation-On submit if there is any missing value in the fields, user gets an alert asking them to fill the missing value. | User types in their name, email address and their message | User recieves message alerting them that their message has been recieved and also if their email has been added to mail list |
+
 
 ## Technologies
 * HTML - HTML is the standard markup language for Web pages.
 * CSS - CSS is the language we use to style an HTML document.
+* Bootstrap - is the most popular CSS Framework for developing responsive and mobile-first websites.
 * Java Script - JavaScript is the programming language of the Web.
+* jQuery -  is a lightweight, "write less, do more", JavaScript library. 
 
 # Licence
 MIT Licence 
