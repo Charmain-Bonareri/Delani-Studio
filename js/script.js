@@ -21,4 +21,9 @@ let cardTotalNumber =(
   $(".card").toArray().length
 );
 
-
+for(let cardNumber = 1; cardNumber<=cardTotalNumber;cardNumber++ ){
+  $(`.card${cardNumber}`).click(function() {
+      $(`.card-show${cardNumber}`).toggle(400);
+      $(`.card-hidden${cardNumber}`).toggle(400);
+    });
+}
