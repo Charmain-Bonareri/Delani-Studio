@@ -13,6 +13,7 @@ body {
   width: 100%;
   text-align: center;
   overflow-x: hidden;
+  font-size: large;
 }
 
 .header {
@@ -40,6 +41,10 @@ body {
   height: 45px;
   position: absolute;
   bottom: 0;
+}
+.m-4{
+  font-size: 150%;
+  font-weight: bolder;
 }
 
 .about {
