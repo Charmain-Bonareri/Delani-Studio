@@ -9,5 +9,12 @@ $(document).ready(function() {
 
 
    
+    if ( name && email && message){
+      alert (`Hi ${name} we have received your message. Thank you for reaching out to us.`);
+  }
+else {
+  alert("Please enter your name and email!");
+    }
+});
   
   
