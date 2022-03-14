@@ -16,8 +16,14 @@ body {
   font-size: large;
 }
 
+.container-fluid-main{
+  padding-top: 30%;
+  margin-top: 30%;
+  font-family: 'Raleway', sans-serif;
+}
+
 .header {
-  height: 100vh;
+  height: 90vh;
   background-image: url("../assets/backgrounds/h_img.jpg");
   background-position: center center;
   background-size: cover;
@@ -34,12 +40,13 @@ body {
   font-weight: 800;
 }
 .header p {
-  font-size: 18px;
+  font-size: 19px;
+  font-weight: bold;
 }
 
 #mouse-click{
   padding-top : 22px;
-  margin-top: 50%;
+  margin-top: 20%;
   padding-bottom: 20px; 
   /* animation-iteration-count: infinite; */
 }
@@ -62,6 +69,8 @@ body {
 .m-4{
   font-size: 150%;
   font-weight: bolder;
+  align-items: center;
+  
 }
 .amazing{
   font-size: 100%;
