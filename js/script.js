@@ -27,3 +27,9 @@ for(let cardNumber = 1; cardNumber<=cardTotalNumber;cardNumber++ ){
       $(`.card-hidden${cardNumber}`).toggle(400);
     });
 }
+
+let overlayTotalNumber =(
+  $(".overlay").toArray().length
+);
+
+
